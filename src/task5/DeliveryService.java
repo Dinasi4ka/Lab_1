@@ -3,7 +3,7 @@ package task5;
 public class DeliveryService {
     public static void main(String[] args) {
 
-        Customer customer = new Customer("John Doe", "123 Main St");
+        Point customer = new Point("John Doe", "123 Main St");
         System.out.println(customer.toString());
 
         ReceivePoint receivePoint = new ReceivePoint("456 Elm St");

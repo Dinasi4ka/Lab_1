@@ -1,9 +1,9 @@
 package task5;
 
-public class Customer {
+public class Point {
     private String name;
     private String address;
-    public Customer(String name, String address) {
+    public Point(String name, String address) {
         this.name = name;
         this.address = address;
     }
